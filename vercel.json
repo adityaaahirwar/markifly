@@ -1,4 +1,7 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
+
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/solutions", "destination": "/pages/solutions/solutions.html" },
@@ -7,11 +10,16 @@
     { "source": "/company", "destination": "/pages/company/company.html" },
     { "source": "/contact", "destination": "/contact.html" }
   ],
+
   "redirects": [
     { "source": "/pages/solutions/solutions.html", "destination": "/solutions", "permanent": true },
     { "source": "/pages/industries/industries.html", "destination": "/industries", "permanent": true },
     { "source": "/pages/blogs/blogs.html", "destination": "/blogs", "permanent": true },
     { "source": "/pages/company/company.html", "destination": "/company", "permanent": true },
     { "source": "/contact.html", "destination": "/contact", "permanent": true }
-  ]
+  ],
+
+  "error": {
+    "notFound": "/404.html"
+  }
 }
