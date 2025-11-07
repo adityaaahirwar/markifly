@@ -4,22 +4,18 @@
 
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/solutions", "destination": "/pages/solutions/solutions.html" },
-    { "source": "/industries", "destination": "/pages/industries/industries.html" },
-    { "source": "/blogs", "destination": "/pages/blogs/blogs.html" },
-    { "source": "/company", "destination": "/pages/company/company.html" },
+    { "source": "/solutions", "destination": "/solutions.html" },
+    { "source": "/industries", "destination": "/industries.html" },
+    { "source": "/blogs", "destination": "/blogs.html" },
+    { "source": "/company", "destination": "/company.html" },
     { "source": "/contact", "destination": "/contact.html" }
   ],
 
   "redirects": [
-    { "source": "/pages/solutions/solutions.html", "destination": "/solutions", "permanent": true },
-    { "source": "/pages/industries/industries.html", "destination": "/industries", "permanent": true },
-    { "source": "/pages/blogs/blogs.html", "destination": "/blogs", "permanent": true },
-    { "source": "/pages/company/company.html", "destination": "/company", "permanent": true },
+    { "source": "/solutions.html", "destination": "/solutions", "permanent": true },
+    { "source": "/industries.html", "destination": "/industries", "permanent": true },
+    { "source": "/blogs.html", "destination": "/blogs", "permanent": true },
+    { "source": "/company.html", "destination": "/company", "permanent": true },
     { "source": "/contact.html", "destination": "/contact", "permanent": true }
-  ],
-
-  "error": {
-    "notFound": "/404.html"
-  }
+  ]
 }
