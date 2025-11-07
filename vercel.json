@@ -1,10 +1,17 @@
 {
   "rewrites": [
+    { "source": "/", "destination": "/index.html" },
     { "source": "/solutions", "destination": "/pages/solutions/solutions.html" },
     { "source": "/industries", "destination": "/pages/industries/industries.html" },
     { "source": "/blogs", "destination": "/pages/blogs/blogs.html" },
     { "source": "/company", "destination": "/pages/company/company.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/", "destination": "/index.html" }
+    { "source": "/contact", "destination": "/contact.html" }
+  ],
+  "redirects": [
+    { "source": "/pages/solutions/solutions.html", "destination": "/solutions", "permanent": true },
+    { "source": "/pages/industries/industries.html", "destination": "/industries", "permanent": true },
+    { "source": "/pages/blogs/blogs.html", "destination": "/blogs", "permanent": true },
+    { "source": "/pages/company/company.html", "destination": "/company", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true }
   ]
 }
