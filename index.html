@@ -2,36 +2,40 @@
 <html lang="en">
 
 <head>
-  <!-- ============ Basic Meta Tags ============ -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- ============ Basic Meta Tags ============ -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- ============ SEO Meta Tags ============ -->
-  <title>Markifly | Creative Digital Marketing Agency</title>
-  <meta name="description" content="Markifly is a full-service digital marketing and creative design agency helping brands grow through strategy, design, and performance marketing." />
-  <meta name="keywords" content="digital marketing, branding, SEO, web design, social media marketing, Markifly, creative agency" />
-  <meta name="author" content="Markifly" />
+    <!-- ============ SEO Meta Tags ============ -->
+    <title>Markifly | Creative Digital Marketing Agency</title>
+    <meta name="description"
+        content="Markifly is a full-service digital marketing and creative design agency helping brands grow through strategy, design, and performance marketing." />
+    <meta name="keywords"
+        content="digital marketing, branding, SEO, web design, social media marketing, Markifly, creative agency" />
+    <meta name="author" content="Markifly" />
 
-  <!-- ============ Open Graph / Social ============ -->
-  <meta property="og:title" content="Markifly — Creative Digital Marketing Agency" />
-  <meta property="og:description" content="We help brands grow with creative strategies, stunning design, and performance-driven marketing." />
-  <meta property="og:image" content="../assets/images/markifly-banner.jpg" />
-  <meta property="og:url" content="https://markifly.in" />
-  <meta name="twitter:card" content="summary_large_image" />
+    <!-- ============ Open Graph / Social ============ -->
+    <meta property="og:title" content="Markifly — Creative Digital Marketing Agency" />
+    <meta property="og:description"
+        content="We help brands grow with creative strategies, stunning design, and performance-driven marketing." />
+    <meta property="og:image" content="../assets/images/markifly-banner.jpg" />
+    <meta property="og:url" content="https://markifly.in" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- ============ Favicon ============ -->
-  <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+    <!-- ============ Favicon ============ -->
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
 
-  <!-- ============ Fonts ============ -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- ============ Fonts ============ -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
 
-  <!-- ============ CSS Files ============ -->
-  <link rel="stylesheet" href="../dist/css/iconfont/tabler-icons.css" />
-  <link rel="stylesheet" href="../dist/css/style.css" />
+    <!-- ============ CSS Files ============ -->
+    <link rel="stylesheet" href="../dist/css/iconfont/tabler-icons.css" />
+    <link rel="stylesheet" href="../dist/css/style.css" />
 
-  <!-- ============ AOS Animation ============ -->
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- ============ AOS Animation ============ -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -124,7 +128,8 @@
                         brands through strategy,
                         design, and innovation.</p>
                     <div class="hero-action d-flex flex-wrap justify-content-center gap-3">
-                        <a href="pages/company/company.html" class="btn btn-primary btn-hover-secondery text-capitalize fw-normal">learn more</a>
+                        <a href="pages/company/company.html"
+                            class="btn btn-primary btn-hover-secondery text-capitalize fw-normal">learn more</a>
                         <a href="../contact.html"
                             class="btn btn-outline-primary btn-hover-outline-secondery text-capitalize fw-normal">contact
                             us</a>
@@ -265,7 +270,7 @@
                             <h4 class="text-uppercase fw-bold text-secondary">Maria Zurich</h4>
                             <div class="fs-6 text-uppercase text-secondary fw-500">ceo</div>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </section>
@@ -874,49 +879,47 @@
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-12">
-                    <form>
+                    <form id="contactForm" class="p-4 rounded-4 shadow-sm border border-1 border-light">
                         <div class="row">
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="form-group">
-                                    <label class="form-label text-uppercase fs-6 mb-3">Full Name</label>
-                                    <input type="text" class="form-control border-0" placeholder="Enter your name">
-                                </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-uppercase fs-6 mb-2">Full Name</label>
+                                <input type="text" name="name" class="form-control border-0 bg-light"
+                                    placeholder="Enter your name" required>
                             </div>
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="form-group">
-                                    <label class="form-label text-uppercase mb-3">email</label>
-                                    <input type="email" class="form-control border-0" placeholder="Enter your email">
-                                </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-uppercase fs-6 mb-2">Email</label>
+                                <input type="email" name="email" class="form-control border-0 bg-light"
+                                    placeholder="Enter your email" required>
                             </div>
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="form-group">
-                                    <label class="form-label text-uppercase fs-6 mb-3">phone</label>
-                                    <input type="text" class="form-control border-0" placeholder="Enter your phone no">
-                                </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-uppercase fs-6 mb-2">Phone</label>
+                                <input type="text" name="phone" class="form-control border-0 bg-light"
+                                    placeholder="Enter your phone no" required>
                             </div>
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="form-group">
-                                    <label class="form-label text-uppercase mb-3">subject</label>
-                                    <select class="form-control border-0">
-                                        <option>Select</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                    </select>
-                                </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-uppercase fs-6 mb-2">Subject</label>
+                                <select class="form-control border-0 bg-light" name="subject">
+                                    <option value="">Select</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Support">Support</option>
+                                    <option value="Feedback">Feedback</option>
+                                </select>
                             </div>
-                            <div class="col-xxl-12 col-xl-12 col-12">
-                                <div class="mb-xxl-4 mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3 mb-3">
-                                    <label class="form-label text-uppercase mb-3">Message</label>
-                                    <textarea class="form-control border-0" placeholder="Enter your message"></textarea>
-                                </div>
+
+                            <div class="col-12 mb-3">
+                                <label class="form-label text-uppercase fs-6 mb-2">Message</label>
+                                <textarea class="form-control border-0 bg-light" name="message"
+                                    placeholder="Enter your message" rows="5" required></textarea>
                             </div>
-                            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
-                                <!-- <div class="g-recaptcha" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>-->
-                            </div>
-                            <div
-                                class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 d-flex justify-content-end">
-                                <button
-                                    class="btn btn-primary btn-hover-secondery text-capitalize mt-2 w-100">submit</button>
+
+                            <div id="formMessage" class="text-center mt-2"></div>
+
+                            <div class="col-12 d-flex justify-content-end">
+                                <button class="btn btn-primary text-capitalize mt-3 w-50" type="submit">Send
+                                    Message</button>
                             </div>
                         </div>
                     </form>
@@ -965,7 +968,8 @@
                         <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Our Services</a></li>
                         <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Recent Projects</a></li>
                         <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Upcoming News</a></li>
-                        <li><a href="../contact.html" class="text-decoration-none text-dark d-block mb-2">Contact</a></li>
+                        <li><a href="../contact.html" class="text-decoration-none text-dark d-block mb-2">Contact</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -1014,6 +1018,47 @@
     <script src="../dist/js/jquery.min.js"></script>
     <script src="../dist/js/bootstrap.min.js"></script>
     <script src="../dist/js/custom.js"></script>
+
+    <script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    const response = await fetch("/api/sendMail", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+
+    const result = await response.json();
+
+    const messageDiv = document.createElement("div");
+    messageDiv.style.marginTop = "15px";
+    messageDiv.style.fontWeight = "600";
+    messageDiv.style.padding = "10px";
+    messageDiv.style.borderRadius = "8px";
+    messageDiv.style.textAlign = "center";
+
+    if (result.success) {
+      messageDiv.textContent = "✅ Message sent successfully!";
+      messageDiv.style.color = "#155724";
+      messageDiv.style.background = "#d4edda";
+      form.reset();
+    } else {
+      messageDiv.textContent = "⚠️ Something went wrong. Please try again later.";
+      messageDiv.style.color = "#721c24";
+      messageDiv.style.background = "#f8d7da";
+    }
+
+    form.appendChild(messageDiv);
+
+    setTimeout(() => messageDiv.remove(), 5000);
+  });
+</script>
 
 </body>
 
