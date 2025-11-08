@@ -9,6 +9,8 @@
     { "source": "/blogs", "destination": "/blogs.html" },
     { "source": "/company", "destination": "/company.html" },
     { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/terms-and-conditions", "destination": "/terms-and-conditions.html" },
 
     { "source": "/blogs/:slug", "destination": "/blogs/:slug.html" }
   ],
@@ -18,6 +20,8 @@
     { "source": "/industries.html", "destination": "/industries", "permanent": true },
     { "source": "/blogs.html", "destination": "/blogs", "permanent": true },
     { "source": "/company.html", "destination": "/company", "permanent": true },
-    { "source": "/contact.html", "destination": "/contact", "permanent": true }
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/privacy-policy.html", "destination": "/privacy-policy", "permanent": true },
+    { "source": "/terms-and-conditions.html", "destination": "/terms-and-conditions", "permanent": true }
   ]
 }

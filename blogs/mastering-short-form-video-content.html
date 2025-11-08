@@ -190,39 +190,83 @@
   </section>
 
   <!------------------------------>
-  <!-- Footer -->
-  <!------------------------------>
-  <footer class="footer py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-12">
-          <a href="#"><img src="/assets/images/Markifly-Logo.png" alt="Markifly" width="160" /></a>
-          <p class="fs-5 mb-0 mt-3 text-muted">
-            Empowering brands with creative marketing and performance-driven growth.
-          </p>
+    <!-- Footer Section Start  -->
+    <!------------------------------>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="footer-logo-col">
+                        <a href="/"><img src="../assets/images/Markifly-Logo.png" alt="" width="160" height="auto"></a>
+
+                        <p class="copyrights fs-5 mb-0">Empowering brands with cutting-edge digital solutions to drive
+                            growth and innovation.</span></p>
+                        <ul class="social-icons list-unstyled mb-0 pl-0 d-flex align-items-center">
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_facebook.svg"><img
+                                        src="../assets/images/footer/icon_facebook_white.svg"></a></li>
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_twitter.svg"><img
+                                        src="../assets/images/footer/icon_twitter_white.svg"></a></li>
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_google_plus.svg"><img
+                                        src="../assets/images/footer/icon_google_plus_white.svg"></a></li>
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_linkdin.svg"><img
+                                        src="../assets/images/footer/icon_linkdin_white.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Links Column -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-secondary fw-bold mb-3">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/company" class="text-decoration-none text-dark d-block mb-2">About</a></li>
+                        <li><a href="/solutions" class="text-decoration-none text-dark d-block mb-2">Our Services</a></li>
+                        <li><a href="/industries" class="text-decoration-none text-dark d-block mb-2">Industries</a></li>
+                        <li><a href="/blogs" class="text-decoration-none text-dark d-block mb-2">Upcoming News</a></li>
+                        <li><a href="/contact" class="text-decoration-none text-dark d-block mb-2">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-secondary fw-bold mb-3">Explore</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/company" class="text-decoration-none text-dark d-block mb-2">Meet the Team</a></li>
+                        <li><a href="/contact" class="text-decoration-none text-dark d-block mb-2">Support</a></li>
+                        <li><a href="/privacy-policy" class="text-decoration-none text-dark d-block mb-2">Privacy Policy</a></li>
+                        <li><a href="/terms-and-conditions" class="text-decoration-none text-dark d-block mb-2">Terms of Use</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-secondary fw-bold mb-3">Newsletter</h5>
+                    <p class="mb-3 fs-6">Subscribe to our newsletter to get the latest updates and offers.</p>
+
+                    <form class="d-flex mb-3">
+                        <input type="email" class="form-control me-2" placeholder="Enter your email" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </form>
+
+                    <p class="copyrights fs-6 mb-0">
+                        Copyright © <span id="autodate"></span> by Markifly
+                    </p>
+                </div>
+
+                <script>
+                    // Auto year script (place once in your footer)
+                    document.getElementById("autodate").textContent = new Date().getFullYear();
+                </script>
+
+            </div>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <h5 class="text-secondary fw-bold mb-3">Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="/solutions" class="text-dark d-block mb-2">Solutions</a></li>
-            <li><a href="/industries" class="text-dark d-block mb-2">Industries</a></li>
-            <li><a href="/blogs" class="text-dark d-block mb-2">Blogs</a></li>
-            <li><a href="/contact" class="text-dark d-block mb-2">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h5 class="text-secondary fw-bold mb-3">Newsletter</h5>
-          <form class="d-flex mb-3">
-            <input type="email" class="form-control me-2" placeholder="Enter your email" required />
-            <button class="btn btn-primary" type="submit">Subscribe</button>
-          </form>
-          <p class="fs-6 mb-0 text-muted">
-            Copyright © <span id="autodate"></span> by Markifly
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
+    <!------------------------------>
+    <!-- Footer Section End  -->
+    <!------------------------------>
 
   <script>
     document.getElementById("autodate").textContent = new Date().getFullYear();
