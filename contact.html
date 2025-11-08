@@ -37,32 +37,58 @@
   <!-- Header Start -->
   <!------------------------------>
   <header class="main-header position-fixed w-100">
-    <div class="container">
-      <nav class="navbar navbar-expand-xl py-0">
-        <div class="logo">
-          <a class="navbar-brand py-0 me-0" href="index.html">
-            <img src="../assets/images/Markifly-Logo.png" alt="Markifly Logo" width="160">
-          </a>
+        <div class="container">
+            <nav class="navbar navbar-expand-xl py-0">
+                <div class="logo">
+                    <a class="navbar-brand py-0 me-0" href="/">
+                        <img src="/assets/images/Markifly-Logo.png" alt="Markifly Logo" width="160" height="auto">
+                    </a>
+                </div>
+                <a class="d-inline-block d-lg-block d-xl-none d-xxl-none nav-toggler text-decoration-none"
+                    data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="ti ti-menu-2"></i>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " href="/solutions">Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/industries">Industries We Serve</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/blogs">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/company">Company</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-primary btn-hover-secondery text-capitalize" href="/contact">Contact Us</a>
+                    </div>
+                </div>
+
+            </nav>
         </div>
-        <a class="d-inline-block d-lg-block d-xl-none d-xxl-none nav-toggler text-decoration-none" data-bs-toggle="offcanvas"
-          href="#offcanvasExample" aria-controls="offcanvasExample">
-          <i class="ti ti-menu-2"></i>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/solutions/solutions.html">Solutions</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/industries/industries.html">Industries We Serve</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/blogs/blogs.html">Blogs</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/company/company.html">Company</a></li>
-          </ul>
-          <div class="d-flex align-items-center">
-            <a class="btn btn-primary btn-hover-secondery text-capitalize" href="contact.html">Contact Us</a>
-          </div>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <div class="logo">
+                    <a class="navbar-brand py-0 me-0" href="/"><img src="../assets/images/Markifly-logo.svg"
+                            alt=""></a>
+                </div>
+                <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                    aria-label="Close"><i class="ti ti-x"></i></button>
+            </div>
+            <div class="offcanvas-body pt-0">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="/solutions">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/industries">Industries We Serve</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blogs">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/company">Company</a></li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-primary btn-hover-secondery text-capitalize" href="/contact">Contact
+                        Us</a>
+                </div>
+            </div>
         </div>
-      </nav>
-    </div>
-  </header>
+    </header>
   <!------------------------------>
   <!-- Header End -->
   <!------------------------------>
@@ -186,35 +212,77 @@
   <!------------------------------>
   <!-- Footer -->
   <!------------------------------>
-  <footer class="footer py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="footer-logo-col mb-3">
-            <a href="#"><img src="../assets/images/Markifly-Logo.png" alt="Markifly" width="160"></a>
-          </div>
-          <p class="fs-6 text-muted">Empowering brands with cutting-edge digital solutions to drive growth and innovation.</p>
+  <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="footer-logo-col">
+                        <a href="#"><img src="../assets/images/Markifly-Logo.png" alt="" width="160" height="auto"></a>
+
+                        <p class="copyrights fs-5 mb-0">Empowering brands with cutting-edge digital solutions to drive
+                            growth and innovation.</span></p>
+                        <ul class="social-icons list-unstyled mb-0 pl-0 d-flex align-items-center">
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_facebook.svg"><img
+                                        src="../assets/images/footer/icon_facebook_white.svg"></a></li>
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_twitter.svg"><img
+                                        src="../assets/images/footer/icon_twitter_white.svg"></a></li>
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_google_plus.svg"><img
+                                        src="../assets/images/footer/icon_google_plus_white.svg"></a></li>
+                            <li><a href="#" class="rounded-circle"><img
+                                        src="../assets/images/footer/icon_linkdin.svg"><img
+                                        src="../assets/images/footer/icon_linkdin_white.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Links Column -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-secondary fw-bold mb-3">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Our Services</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Recent Projects</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Upcoming News</a></li>
+                        <li><a href="../contact.html" class="text-decoration-none text-dark d-block mb-2">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-secondary fw-bold mb-3">Explore</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Meet the Team</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Support</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Privacy Policy</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block mb-2">Terms of Use</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-secondary fw-bold mb-3">Newsletter</h5>
+                    <p class="mb-3 fs-6">Subscribe to our newsletter to get the latest updates and offers.</p>
+
+                    <form class="d-flex mb-3">
+                        <input type="email" class="form-control me-2" placeholder="Enter your email" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </form>
+
+                    <p class="copyrights fs-6 mb-0">
+                        Copyright © <span id="autodate"></span> by Markifly
+                    </p>
+                </div>
+
+                <script>
+                    // Auto year script (place once in your footer)
+                    document.getElementById("autodate").textContent = new Date().getFullYear();
+                </script>
+
+            </div>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <h5 class="text-secondary fw-bold mb-3">Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-dark d-block mb-2">About</a></li>
-            <li><a href="#" class="text-dark d-block mb-2">Services</a></li>
-            <li><a href="#" class="text-dark d-block mb-2">Projects</a></li>
-            <li><a href="#" class="text-dark d-block mb-2">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <h5 class="text-secondary fw-bold mb-3">Newsletter</h5>
-          <form class="d-flex mb-3">
-            <input type="email" class="form-control me-2" placeholder="Enter your email" required>
-            <button class="btn btn-primary" type="submit">Subscribe</button>
-          </form>
-          <p class="text-muted mb-0">Copyright © <span id="autodate"></span> Markifly</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
   <!------------------------------>
   <!-- Scripts -->

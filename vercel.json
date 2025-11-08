@@ -8,7 +8,9 @@
     { "source": "/industries", "destination": "/industries.html" },
     { "source": "/blogs", "destination": "/blogs.html" },
     { "source": "/company", "destination": "/company.html" },
-    { "source": "/contact", "destination": "/contact.html" }
+    { "source": "/contact", "destination": "/contact.html" },
+
+    { "source": "/blogs/:slug", "destination": "/blogs/:slug.html" }
   ],
 
   "redirects": [
